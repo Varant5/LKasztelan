@@ -1,0 +1,173 @@
+body {
+    background: url('https://a.allegroimg.com/original/12896d/5cfed06846069c58590c1dd16f59') center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+}
+
+footer,
+header {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    background: linear-gradient(45deg, #ff0000, #ff8000, #ffff00, #80ff00, #00ff80, #0080ff, #0000ff);
+    background-size: 1200% 1200%;
+    animation: rainbow 10s infinite;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: red;
+}
+
+
+.car-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.container,
+.img-container,
+.contact-container {
+    max-width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: #ce5a5a;
+}
+
+h2 {
+    color: #3498db;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: blue;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+p {
+    color: green;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    border: 1px solid #732929;
+    text-align: left;
+    padding: 15px;
+}
+
+th {
+    background-color: #007bff;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+h2 {
+    color: #007bff;
+}
+
+p {
+    color: #333333;
+}
+
+ul li {
+    text-shadow: 2px 2px 4px #888888;
+}
+
+.container ul {
+    list-style: none;
+    padding: 0;
+    text-align: left !important;
+}
+
+.container ul li {
+    width: 100%;
+}
+
+.container ul li a {
+    display: block;
+}
+
+.article {
+    flex-basis: calc(33.33% - 20px);
+    margin-top: 20px;
+}
+
+.title-bar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.image {
+    width: 100%;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .article {
+        flex-basis: 100%;
+    }
+
+    .container-img {
+        justify-content: center;
+    }
+}
