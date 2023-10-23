@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.task-list-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#searchInput {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+}
+
+.editing {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.editing input {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.due-soon {
+    color: red;
+    font-weight: bold;
+}
+
+div>input[type="text"],
+div>input[type="datetime-local"],
+div>button {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Przenieś przycisk Delete na prawą stronę */
+li button {
+    margin-left: auto;
+    display: block;
+}

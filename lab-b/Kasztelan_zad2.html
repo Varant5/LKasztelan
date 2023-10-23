@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task List</title>
+</head>
+
+<body>
+    <h1>Task List</h1>
+    <div class="task-list-container">
+        <input type="text" id="searchInput" placeholder="Search tasks...">
+        <ul id="taskList"></ul>
+        <div>
+            <input type="text" id="newTask" placeholder="New task..." minlength="3" maxlength="255">
+            <input type="datetime-local" id="dueDate" min="" required>
+            <button onclick="addTask()">Add Task</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
