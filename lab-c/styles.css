@@ -1,0 +1,54 @@
+.controls {
+    display: flex;
+}
+
+.map {
+    height: 300px;
+    width: 45%;
+    margin-right: 5px;
+}
+
+.puzzle-drop-area {
+    height: 300px;
+    width: 45%;
+}
+
+#map-controls {
+    width: 45%;
+}
+
+.container {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    border: 2px dashed #7f7fe9;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.puzzle-drop-area {
+    width: 150px;
+    height: 75px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    background-color: red;
+}
+
+.map-puzzle-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    /* Dodane, aby dodać odstęp między puzzle */
+}
+
+.map-puzzle-piece {
+    width: 150px;
+    /* Ustaw szerokość puzzle, aby zmieściły się obok siebie z odstępem */
+    height: 75px;
+    background-size: cover;
+    cursor: grab;
+    margin: 0;
+    box-sizing: border-box;
+}
