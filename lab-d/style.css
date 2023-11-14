@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#weatherContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#infoText {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#addressInput {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#currentWeather {
+    margin-bottom: 20px;
+}
+
+#forecast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid #ddd;
+}
+
+.forecastItem {
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#forecastTitle {
+    text-align: center;
+    margin: 10px 0;
+}
+
+#weatherIcon {
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 10px;
+}
